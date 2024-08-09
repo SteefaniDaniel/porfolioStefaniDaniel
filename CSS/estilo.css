@@ -1,0 +1,89 @@
+*{
+    margin: 10 auto;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+body{
+ background:radial-gradient(circle,#ff9a9e,#fad0c4,#e6ccf8,#c4a7e7,#ff9a9e,#fcd5ce,#d5a6e5);
+ margin: 0;
+ padding: 0;
+ justify-content: center;
+ align-items: center;
+  
+}
+
+.botao{
+    height:30px; color:rgb(59, 71, 107);
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 100px;
+    background-color:rgb(243, 150, 213)
+    
+}
+.botao2{
+    position: fixed;
+    bottom: 20px;
+    font-size: 30px;
+}
+.titulo{
+    color:rgb(212, 6, 119); font-family:Georgia, 'Times New Roman', Times, serif;font-size: 22px;border: 2px solid;
+    text-align: center;
+    border-radius: 40px;
+    background-color: rgb(154, 245, 219);
+}
+.titulo2{
+    color: rgb(6, 74, 95);
+    font-size: 30px;
+    text-align: center;
+
+}
+   
+.subtitulo1{
+    color:rgb(212, 6, 119);font-size: 20px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;text-align: center;background-color: rgb(22, 47, 56);border-radius: 30px;
+
+}
+p{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color: rgb(252, 253, 181);font-size: 20px;background-color: rgb(143, 42, 125);border-radius: 15px;
+
+}
+div{
+    text-align: center; /*div para centralizar*/
+}
+/* interação dos links*/
+a.estilo:hover {color: rgb(255, 255, 255);text-decoration: none;}
+a.estilo:link {text-decoration: none;}
+.imagem{
+ width: 300px;
+ border-radius: 50px;
+
+}
+a.estilo2:link{text-decoration: none;}
+a.estilo2:hover{color: rgb(246, 246, 246);text-decoration: none;}
+
+li{
+    font-size: 12px;font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 5px solid white;
+    padding:20px;
+    font-size:20px;/* formataçao das listas*/
+    border-radius: 30px;
+    background-color: rgb(219, 163, 215);
+    }
+.paragrafo:hover{
+    font-size:40px;
+    
+}
+.formulario{
+    background-color: rgb(58, 2, 49);
+    border:solid white;
+    font-size: 10px;
+}
+
+h2{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(68, 6, 125);
+}
+#enviar{
+    font-size: 12px;
+}
